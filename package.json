@@ -2,7 +2,8 @@
   "name": "backend_feed_me_some_knowledge",
   "version": "1.0.0",
   "engines": {
-    "node": "13.11.0"
+    "node": "13.11.0",
+    "npm":"6.13.7"
     },
   "description": "",
   "main": "app.js",

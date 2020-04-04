@@ -1,0 +1,20 @@
+{
+  "name": "backend_feed_me_some_knowledge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngochangjelly/backend_feed_me_some_knowledge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngochangjelly/backend_feed_me_some_knowledge/issues"
+  },
+  "homepage": "https://github.com/ngochangjelly/backend_feed_me_some_knowledge#readme"
+}

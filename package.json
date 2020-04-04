@@ -1,10 +1,12 @@
 {
   "name": "backend_feed_me_some_knowledge",
   "version": "1.0.0",
+  "engines": {
+    "node": "13.11.0"
+    },
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "repository": {

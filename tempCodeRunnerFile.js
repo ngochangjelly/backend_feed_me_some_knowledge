@@ -16,7 +16,7 @@ const articleSchema = new mongoose.Schema({
 
 const Article = mongoose.model('Article', articleSchema);
 
-async function insertRecord({ content = '', displayed = true, url = "google.com" }) {
+function insertRecord({ content = '', displayed, url }) {
   connectMongoose();
   const newRecord = new Article({
     content,
@@ -25,15 +25,19 @@ async function insertRecord({ content = '', displayed = true, url = "google.com"
     url
   });
 
-  const response = await newRecord.save()
-  console.log(response)
-  mongoose.connection.close();
+  newRecord.save().then(response => {
+    console.log('article saved!');
+    mongoose.connection.close();
+  });
 };
-insertRecord({ content: 'as', displayed: true, url: 'assss' })
 
 async function getRecords() {
   const db = await connectMongoose();
-  console.log("getRecords -> db", db.data)
+  console.log("getRecords -> db", db)
+
 }
 
 export { insertRecord, getRecords }
+
+
+getRecords()

@@ -1,0 +1,3 @@
+- Start: npm start
+- Service running at 5000 localhost
+- Connect to mongodb to read and write data

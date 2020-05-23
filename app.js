@@ -1,8 +1,8 @@
 import express from 'express';
 import * as db from './db.js';
-let axios = require('axios');
-let cheerio = require('cheerio');
-let fs = require('fs');
+import axios from 'axios';
+import cheerio from 'cheerio';
+import fs from 'fs';
 
 const app = express();
 // app.set('port', (process.env.PORT || 5000));

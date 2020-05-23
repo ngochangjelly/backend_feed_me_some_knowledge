@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/ngochangjelly/backend_feed_me_some_knowledge#readme",
   "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.7"
   },
